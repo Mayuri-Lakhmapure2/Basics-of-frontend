@@ -1,0 +1,32 @@
+div {
+    height:50px;
+    width:100px;
+    color:black;
+    background-color:pink;
+    animation-name:colorAnimation;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-delay:0.5s;
+    animation-iteration-count: 4;
+    animation-direction:alternate;
+    text-align:center;
+
+}
+@keyframes colorAnimation {
+    from{
+        background-color:red;
+        color:white;
+        width:200px;
+        height:200px;
+        font-size:50px;
+    }
+    to{
+        background-color:purple;
+        color:black;
+        width:400px;
+        font-size:100px;
+        height:400px;
+        
+
+    }
+}
