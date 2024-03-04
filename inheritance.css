@@ -1,0 +1,33 @@
+div {
+    background-color:yellow;
+}
+
+h2 + p::selection {
+    background-color:purple;
+}
+
+label {
+    background-color:red;
+}
+
+h1 {
+    text-decoration: pink underline;
+}
+
+button:hover {
+    background-color:rgb(232, 161, 232);
+    color:black;
+}
+
+button {
+    background:pink;
+    color:white;
+}
+h1 {
+     font-family:'Courier New', Courier, monospace;
+     font-weight:500;
+     font-size:100px;
+     letter-spacing:5px;
+     text-decoration:line-through;
+     color:brown;
+}
