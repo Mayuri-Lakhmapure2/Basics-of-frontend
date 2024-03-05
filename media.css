@@ -1,0 +1,14 @@
+div {
+    border:2px solid black;
+    background-color:yellowgreen;
+}
+@media(width:800px) {
+    div{
+        background-color:red;
+    }
+}
+@media(min-width:300px) and (max-width:600px ) {
+    div{
+        background-color:purple;
+    }
+}
